@@ -39,10 +39,23 @@ fetch(endpoint)
             const lastNameCell = document.createElement('td');
             lastNameCell.textContent = user.name.last;
             row.appendChild(lastNameCell);
-
+            
             const genderCell = document.createElement('td');
             genderCell.textContent = user.gender;
-            row.appendChild(genderCell);
+        
+            // Create an image element
+            const img1 = document.createElement('img');
+            img1.classList.add('img-thumbnail2');
+
+           
+            if (genderCell.textContent == "male") {
+                img1.src = "265674.png"; // Image for male
+            } else {
+                img1.src = "417776.png"; // Image for female
+            }
+            row.appendChild(img1);
+
+          
 
             const photoCell = document.createElement('td');
             const img = document.createElement('img');

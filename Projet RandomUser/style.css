@@ -1,0 +1,37 @@
+     
+body {
+    background-color: #001f3f; /* Bleu nuit */
+    color: #ffffff; /* Texte blanc */
+}
+
+h1 {
+    color: #007bff; /* Bleu clair pour le titre */
+}
+
+.table {
+    background-color: #003366; /* Bleu nuit pour le fond de la table */
+    color: #ffffff; /* Texte blanc */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #004080; /* Survol des lignes de la table */
+}
+
+th {
+    background-color: #00509e; /* Bleu foncé pour les en-têtes */
+    color: #ffffff; /* Texte blanc pour l'en-tête */
+}
+
+td {
+    background-color: #002147; /* Fond des cellules */
+}
+
+.img-thumbnail {
+    border-color: #004080; /* Bordure des miniatures */
+}
+
+.img-thumbnail2 {
+    border-color: #004080; /* Bordure des miniatures */
+    width: 70px;
+    height: 70px;
+}
